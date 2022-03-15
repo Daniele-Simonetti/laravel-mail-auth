@@ -10,6 +10,6 @@ class Lead extends Model
     [
         'name',
         'email',
-        'messagge',
+        'message',
     ];
 }

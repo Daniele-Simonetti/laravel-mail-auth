@@ -10,9 +10,9 @@
 
 <body>
   <h1>un nuovissimo e bellissimo contatto nuovo di szecca</h1>
-  {{ $lead->name }}
-  {{ $lead->email }}
-  {{ $lead->messaggio }}
+  <h2>{{ $lead->name }}</h2>
+  <h3>{{ $lead->email }}</h3>
+  <h4>{{ $lead->message }}</h4>
 </body>
 
 </html>
